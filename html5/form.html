@@ -7,6 +7,7 @@
     <style>
         label{
             display: block;
+            margin: 10px;
         }
     </style>
 </head>
@@ -20,16 +21,57 @@
                 Please Fill up the Form
             </h2>
             <form>
-                <label for="text"> Your Name
+                <label for="text"> Your Name:
                     <input type="text"
                     placeholder="Your Name">
                     
                 </label>
-                <label for="email"> email 
+                <label for="email"> Your email : 
                     <input type="email" name="" id="email" placeholder="your email"> 
 
                 </label>
+                <label> Your phone:
+                    <input type="text" name="" id="" placeholder="Your Number">
+
+                </label>
+                
+                <label> 
+                    <fieldset>
+                        <legend>pick one Tablet</legend>
+                        <label for="extra napa"> 
+                            <input type="radio" name="Tablet" id="Napa">extra napa
+                        </label>
+                        <label for="Monas 10">
+                            <input type="radio" name="Tablet"> Monas 10
+                        </label>
+                        <label for="Hexo">
+                            <input type="radio" name="Tablet" id="">Hexo
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pick one More Tablet</legend>
+                        <label for="Medicine">
+                            <input type="checkbox" name="Medicine" id="">Fenadin
+                        </label>
+                        <label>
+                            <input type="checkbox" name="" id="">H2SO4
+                        </label>
+                        <label>
+                            <input type="checkbox" name="" id="">NH4CL
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>About Your Extra skills</legend>
+                        <label>
+                            <textarea name="" id="" cols="30" rows="2"></textarea>
+                        </label>
+                    </fieldset>
+                    
+                </label>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
             </form>
+
         </section>
 
     </main>

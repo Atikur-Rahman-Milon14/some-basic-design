@@ -1,0 +1,16 @@
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+li:hover{
+    background-color: lightgray;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
